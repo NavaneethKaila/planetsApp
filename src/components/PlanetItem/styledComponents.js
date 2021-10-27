@@ -17,4 +17,5 @@ export const Name = styled.h1`
 
 export const Description = styled.p`
   color: #ffffff;
+  text-align: center;
 `

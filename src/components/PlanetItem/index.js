@@ -10,13 +10,11 @@ const PlanetItem = props => {
   const {name, imageUrl, description} = planetDetails
 
   return (
-    <>
-      <PlanetContainer>
-        <PlanetImage src={imageUrl} alt={`planet ${name}`} />
-        <Name>{name}</Name>
-        <Description>{description}</Description>
-      </PlanetContainer>
-    </>
+    <PlanetContainer>
+      <PlanetImage src={imageUrl} alt={`planet ${name}`} />
+      <Name>{name}</Name>
+      <Description>{description}</Description>
+    </PlanetContainer>
   )
 }
 

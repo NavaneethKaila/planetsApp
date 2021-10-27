@@ -5,12 +5,11 @@ export const AppContainer = styled.div`
   background-size: cover;
   min-height: 100vh;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  //   display: flex;
+  //   flex-direction: column;
 `
 export const Heading = styled.h1`
   color: #05acff;
   font-family: 'Roboto';
+  text-align: center;
 `

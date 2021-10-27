@@ -4,6 +4,7 @@ import {AppContainer, Heading} from './styledComponents'
 
 const PlanetsSlider = props => {
   const {planetsList} = props
+
   return (
     <AppContainer data-testid="planets">
       <Heading>PLANETS</Heading>
